@@ -1,0 +1,6 @@
+# Replace the token through your secret manager or host environment.
+# Do not commit a real Microsoft Graph access token.
+- name: '@libai168/dsh-tool-microsoft-365'
+  config:
+    accessToken: 'replace-with-a-short-lived-delegated-graph-token'
+    timeoutMs: 15000
